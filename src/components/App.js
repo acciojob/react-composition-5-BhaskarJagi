@@ -7,33 +7,33 @@ const App = () => {
 
   const tabs1 = [
     {
-      title: "Apple",
-      content: "An Apple a day keep the doctor away."
+      title: 'Tab 1',
+      content: 'Content of Tab 1'
     },
     {
-      title: "Orange",
-      content: "Oranges are citrus fruits."
+      title: 'Tab 2',
+      content: 'Content of Tab 2'
     },
     {
-      title: "Mango",
-      content: "Mango is a seasonal friut of summer."
-    }
-  ]
+      title: 'Tab 3',
+      content: 'Content of Tab 3'
+    },
+  ];
 
   const tabs2 = [
     {
-      title: "Schooling",
-      content: "Srinivasa Vidya Nilayam."
+      title: 'Tab A',
+      content: 'Content of Tab A'
     },
     {
-      title: "Diploma",
-      content: "Government Polytechic College."
+      title: 'Tab B',
+      content: 'Content of Tab B'
     },
     {
-      title: "Under Graduation",
-      content: "Anil Neerukonda Institute of Technology and Sciences."
-    }
-  ]
+      title: 'Tab C',
+      content: 'Content of Tab C'
+    },
+  ];
   return (
     <div>
         <Tabs tabs={tabs1} />
